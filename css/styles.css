@@ -984,7 +984,7 @@ img{
 }
 
 .mdl-chk:checked+.mdl-privacy-label .mdl-chk-box {
- background-color: #4d5ae5;
+ background-color:#404bbf;;
  border: none;
  fill: #F4F4FD;
 }
