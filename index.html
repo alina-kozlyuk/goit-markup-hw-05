@@ -416,13 +416,93 @@
                             </svg>
                         </a>
                     </li>
-
-                </ul>
+                 </ul>
 
             </div>
+       
+            <div class="footer-subscribe">
+              <p class="footer-subscribe-title">Subscribe</p>
+                <form class="footer-form">
+                  <label for="email">
+                    <input class="footer-form-email" id="email" type="email" placeholder="E-mail" name="email"></label>
+                    <button class="footer-button-subscribe">Subscribe
+                        <svg class="footer-subscribe-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-subscribe"></use>
+                        </svg>
+                    </button>
+                </form>
+        </div>
+
         </div>
     </footer>
     <!-- #endregion footer -->
+
+    <!-- #region backdrop -->
+ 
+    <div class="backdrop">
+        <div class="popup-review">
+           <p class="popup-title">Leave your contacts and we will call you back</p>
+           <button class="close-popup" type="button">
+             <svg class="close-popup-icon" width="8" height="8">
+             <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+        </button>
+    
+           <form>
+                <div class="form-field-warpper">
+                    <label class="lable-field" for="username">Name</label>
+                    <div class="field-wrapper">
+                        <input class="text-field" type="text" id="username" name="username">
+                        <svg class="field-icon" width="18" height="18">
+                            <use href="./images/icons.svg#icon-name"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="form-field-warpper">
+                    <label class="lable-field" for="usertel">Phone</label>
+                    <div class="field-wrapper">
+                        <input class="text-field" type="tel" id="usertel" name="usertel">
+                        <svg class="field-icon" width="18" height="18">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="form-field-warpper">
+                    <label class="lable-field" for="useremail">Email</label>
+                    <div class="field-wrapper">
+                        <input class="text-field" type="email" id="useremail" name="useremail">
+                        <svg class="field-icon" width="18" height="18">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                    </div>
+                 </div>
+
+                 <div class="form-field-warpper">
+                    <label class="lable-field" for="comment">Comment</label>
+                    <textarea class="comment-textarea" name="comment" id="comment" placeholder="Text input"></textarea>
+                 </div>
+
+                 <div class="form-field-warpper">
+                    <input class="policy-checkbox visually-hidden" type="checkbox" id="policy" name="policy" value="true">
+                    <label for="policy" class="policy-lable" >
+                        <span class="custom-checkbox">
+                            <svg class="" width="8" height="10">
+                                <use href="./images/icons.svg#icon-check-mark"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the <a href="#" class="accent policy-link">Privacy Policy</a></label>
+                 </div>
+
+                <button class="send-button" type="submit">Send</button>
+           </form>
+ </div>
+
+</div>
+
+<!-- #endregion backdrop -->
+
 </body>
 
 </html>
